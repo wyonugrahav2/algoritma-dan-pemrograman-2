@@ -48,6 +48,8 @@ Seluruh modul dirancang menggunakan pendekatan **Decoupled Layer Architecture** 
            ▼
 [ Domain & Infrastructure ] ---> (Models / Data Structures / Storage)
 
+---
+
 🛠️ Panduan Instalasi & Penggunaan
 1. Prasyarat Sistem
 Python: v3.10 atau versi lebih baru 🐍
