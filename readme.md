@@ -33,70 +33,69 @@ Selamat datang di repositori **Algoritma dan Pemrograman 2**. Repositori ini ber
 
 Seluruh modul dirancang menggunakan pendekatan **Decoupled Layer Architecture** dan **Modular Design Pattern**, memisahkan secara tegas antara _Presentation Layer_ (CLI Terminal UI), _Domain/Business Logic_, _Data Processing Pipeline_, dan _Infrastructure/Storage_.
 
-`````text
-[ CLI Presentation Layer ]  ---> (Rich / ANSI Visualizers)
-           │
-           ▼
-[ Command Dispatcher & Router ]
-           │
-           ▼
-[ Core Processing Engine ]  ---> (Pipelines / Algorithms / Benchmarkers)
-           │
-           ▼
-[ Resilience & Auditor ]    ---> (Circuit Breakers / Profilers / Loggers)
-           │
-           ▼
-[ Domain & Infrastructure ] ---> (Models / Data Structures / Storage)
-````text
 ---
 
 🛠️ Panduan Instalasi & Penggunaan
+
 1. Prasyarat Sistem
-Python: v3.10 atau versi lebih baru 🐍
+   Python: v3.10 atau versi lebih baru 🐍
 
 Git: Untuk kloning repositori 📦
 
 2. Kloning Repositori
-Bash
-git clone [https://github.com/wyonugrahav2/algoritma-dan-pemrograman-2.git](https://github.com/wyonugrahav2/algoritma-dan-pemrograman-2.git)
-cd algoritma-dan-pemrograman-2
+   Bash
+   git clone [https://github.com/wyonugrahav2/algoritma-dan-pemrograman-2.git](https://github.com/wyonugrahav2/algoritma-dan-pemrograman-2.git)
+   cd algoritma-dan-pemrograman-2
 3. Lingkungan Virtual & Dependensi
-Bash
+   Bash
+
 # Membuat Virtual Environment
+
 python -m venv venv
 
 # Aktivasi Lingkungan Virtual
+
 # Windows:
+
 venv\Scripts\activate
+
 # Linux / MacOS:
+
 source venv/bin/activate
 
 # Instalasi Dependensi
+
 pip install -r requirements.txt
 🏃 Cara Menjalankan Modul
 Setiap modul dilengkapi dengan main.py yang berfungsi sebagai entry point independen. Kamu dapat menjalankan modul spesifik langsung dari terminal:
 
 Bash
+
 # Contoh: Menjalankan Modul 04 (Stress Test Big-O)
+
 python modul_04_algorithmic_scale/main.py
 
 # Contoh: Menjalankan Modul 06 (Visualizer Sorting)
+
 python modul_06_basic_sorting_blueprints/main.py
 
 # Contoh: Menjalankan Modul 15 (Defense Dashboard)
+
 python modul_15_cli_project_defense_blueprint/main.py
 🧪 Pengujian (Testing Suite)
 Repositori ini dilengkapi dengan unit testing dan integration testing komprehensif. Untuk menjalankan pengujian di seluruh modul:
 
 Bash
+
 # Menjalankan seluruh unit test
+
 pytest
 
 # Menjalankan test dengan laporan cakupan kode (coverage)
+
 pytest --cov=src
 📝 Lisensi
 Proyek ini dilisensikan di bawah MIT License — bebas digunakan dan dikembangkan untuk keperluan edukasi dan riset. 📄
-
 
 ---
 
@@ -108,4 +107,4 @@ Ganti seluruh isi file `readme.md` di VS Code kamu dengan kode di atas, lalu jal
 git add readme.md
 git commit -m "docs: add progress roadmap table with empty status 📊"
 git push origin main
-`````
+```
