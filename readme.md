@@ -33,7 +33,7 @@ Selamat datang di repositori **Algoritma dan Pemrograman 2**. Repositori ini ber
 
 Seluruh modul dirancang menggunakan pendekatan **Decoupled Layer Architecture** dan **Modular Design Pattern**, memisahkan secara tegas antara _Presentation Layer_ (CLI Terminal UI), _Domain/Business Logic_, _Data Processing Pipeline_, dan _Infrastructure/Storage_.
 
-````text
+`````text
 [ CLI Presentation Layer ]  ---> (Rich / ANSI Visualizers)
            │
            ▼
@@ -47,7 +47,7 @@ Seluruh modul dirancang menggunakan pendekatan **Decoupled Layer Architecture** 
            │
            ▼
 [ Domain & Infrastructure ] ---> (Models / Data Structures / Storage)
-
+````text
 ---
 
 🛠️ Panduan Instalasi & Penggunaan
@@ -108,4 +108,4 @@ Ganti seluruh isi file `readme.md` di VS Code kamu dengan kode di atas, lalu jal
 git add readme.md
 git commit -m "docs: add progress roadmap table with empty status 📊"
 git push origin main
-````
+`````
