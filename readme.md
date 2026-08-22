@@ -49,21 +49,21 @@ Git: Untuk kloning repositori 📦
 3. Lingkungan Virtual & Dependensi
    Bash
 
-# Membuat Virtual Environment
+## Membuat Virtual Environment
 
 python -m venv venv
 
-# Aktivasi Lingkungan Virtual
+## Aktivasi Lingkungan Virtual
 
-# Windows:
+## Windows:
 
 venv\Scripts\activate
 
-# Linux / MacOS:
+## Linux / MacOS:
 
 source venv/bin/activate
 
-# Instalasi Dependensi
+## Instalasi Dependensi
 
 pip install -r requirements.txt
 🏃 Cara Menjalankan Modul
@@ -71,15 +71,15 @@ Setiap modul dilengkapi dengan main.py yang berfungsi sebagai entry point indepe
 
 Bash
 
-# Contoh: Menjalankan Modul 04 (Stress Test Big-O)
+## Contoh: Menjalankan Modul 04 (Stress Test Big-O)
 
 python modul_04_algorithmic_scale/main.py
 
-# Contoh: Menjalankan Modul 06 (Visualizer Sorting)
+## Contoh: Menjalankan Modul 06 (Visualizer Sorting)
 
 python modul_06_basic_sorting_blueprints/main.py
 
-# Contoh: Menjalankan Modul 15 (Defense Dashboard)
+## Contoh: Menjalankan Modul 15 (Defense Dashboard)
 
 python modul_15_cli_project_defense_blueprint/main.py
 🧪 Pengujian (Testing Suite)
@@ -87,11 +87,11 @@ Repositori ini dilengkapi dengan unit testing dan integration testing komprehens
 
 Bash
 
-# Menjalankan seluruh unit test
+## Menjalankan seluruh unit test
 
 pytest
 
-# Menjalankan test dengan laporan cakupan kode (coverage)
+## Menjalankan test dengan laporan cakupan kode (coverage)
 
 pytest --cov=src
 📝 Lisensi
