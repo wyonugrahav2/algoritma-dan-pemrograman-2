@@ -10,22 +10,22 @@ Selamat datang di repositori **Algoritma dan Pemrograman 2**. Repositori ini ber
 
 ## 📅 Progress & Roadmap Praktikum
 
-| Pertemuan | Topik Materi                                                   | Nama Modul / Folder                        |          Status           |
-| :-------: | :------------------------------------------------------------- | :----------------------------------------- | :-----------------------: |
-|  **M1**   | Advanced IPO Problem Analysis & Decoupled Architecture         | `modul_01_advanced_ipo_system`             | 🔁 dalam tahap pengerjaan |
-|  **M2**   | Modular Algorithm Design & Event Bus Pattern                   | `modul_02_modular_algorithm_design`        |             -             |
-|  **M3**   | Rekursi vs Iterasi, Call Stack & Tail Call Optimization        | `modul_03_recursion_vs_iteration`          |             -             |
-|  **M4**   | Algorithmic Scale & Big-O Stress Testing Engine                | `modul_04_algorithmic_scale`               |             -             |
-|  **M5**   | Search Algorithm Anatomy & Search Space Inspection             | `modul_05_search_algorithm_anatomy`        |             -             |
-|  **M6**   | Basic Sorting Blueprints, Stability & Telemetry Inspector      | `modul_06_basic_sorting_blueprints`        |             -             |
-|  **M7**   | Algorithm Integration Blueprint & Multi-Pipeline Orchestrator  | `modul_07_algorithm_integration`           |             -             |
-|  **M9**   | Architecting Robust Software & Circuit Breaker Fault-Tolerance | `modul_09_architecting_robust_software`    |             -             |
-|  **M10**  | Dictionary & Set Optimization, Hash Collisions & Bloom Filters | `modul_10_dictionary_and_set_optimization` |             -             |
-|  **M11**  | Modern Data Pipelines & Memory-Efficient Stream Processing     | `modul_11_modern_data_pipelines`           |             -             |
-|  **M12**  | CLI Architecture Blueprint & Subcommand Dispatcher Engine      | `modul_12_cli_architecture_blueprint`      |             -             |
-|  **M13**  | CLI System Blueprint, Kernel Bootstrapper & Persistence        | `modul_13_cli_system_blueprint`            |             -             |
-|  **M14**  | Audit Kompleksitas Sistem CLI, Latency & SLA Verification      | `modul_14_audit_kompleksitas_sistem_cli`   |             -             |
-|  **M15**  | CLI Project Defense Blueprint, Binary Packaging & Auto-Demo    | `modul_15_cli_project_defense_blueprint`   |             -             |
+| Pertemuan | Topik Materi                                                   | Nama Modul / Folder                        |   Status   |
+| :-------: | :------------------------------------------------------------- | :----------------------------------------- | :--------: |
+|  **M1**   | Advanced IPO Problem Analysis & Decoupled Architecture         | `modul_01_advanced_ipo_system`             | ✅ selesai |
+|  **M2**   | Modular Algorithm Design & Event Bus Pattern                   | `modul_02_modular_algorithm_design`        |     -      |
+|  **M3**   | Rekursi vs Iterasi, Call Stack & Tail Call Optimization        | `modul_03_recursion_vs_iteration`          |     -      |
+|  **M4**   | Algorithmic Scale & Big-O Stress Testing Engine                | `modul_04_algorithmic_scale`               |     -      |
+|  **M5**   | Search Algorithm Anatomy & Search Space Inspection             | `modul_05_search_algorithm_anatomy`        |     -      |
+|  **M6**   | Basic Sorting Blueprints, Stability & Telemetry Inspector      | `modul_06_basic_sorting_blueprints`        |     -      |
+|  **M7**   | Algorithm Integration Blueprint & Multi-Pipeline Orchestrator  | `modul_07_algorithm_integration`           |     -      |
+|  **M9**   | Architecting Robust Software & Circuit Breaker Fault-Tolerance | `modul_09_architecting_robust_software`    |     -      |
+|  **M10**  | Dictionary & Set Optimization, Hash Collisions & Bloom Filters | `modul_10_dictionary_and_set_optimization` |     -      |
+|  **M11**  | Modern Data Pipelines & Memory-Efficient Stream Processing     | `modul_11_modern_data_pipelines`           |     -      |
+|  **M12**  | CLI Architecture Blueprint & Subcommand Dispatcher Engine      | `modul_12_cli_architecture_blueprint`      |     -      |
+|  **M13**  | CLI System Blueprint, Kernel Bootstrapper & Persistence        | `modul_13_cli_system_blueprint`            |     -      |
+|  **M14**  | Audit Kompleksitas Sistem CLI, Latency & SLA Verification      | `modul_14_audit_kompleksitas_sistem_cli`   |     -      |
+|  **M15**  | CLI Project Defense Blueprint, Binary Packaging & Auto-Demo    | `modul_15_cli_project_defense_blueprint`   |     -      |
 
 ---
 
