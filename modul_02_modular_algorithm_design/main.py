@@ -1,3 +1,11 @@
+from __future__ import annotations
+
+import os
+import sys
+
+# Tambahkan path folder saat ini ke sys.path sebelum import lokal
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 """
 Entry Point aplikasi.
 
@@ -9,8 +17,6 @@ Bertanggung jawab untuk:
 Kode di file ini SENGAJA dibuat tipis (thin) -- semua logika berat
 ada di dalam masing-masing modul, bukan di sini.
 """
-
-from __future__ import annotations
 
 import logging
 

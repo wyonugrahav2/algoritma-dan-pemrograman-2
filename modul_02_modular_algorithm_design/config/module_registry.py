@@ -5,15 +5,19 @@ Bertugas mencatat modul mana saja yang aktif saat runtime, serta
 menyediakan mekanisme untuk mendaftarkan (register), membatalkan
 pendaftaran (unregister), dan memuat (load) modul secara dinamis
 berdasarkan nama string -- tanpa import langsung di kode inti.
-
-Ini adalah kunci dari "pluggable module": modul baru bisa ditambahkan
-hanya dengan mendaftarkannya di sini, tanpa mengubah kode orchestrator.
 """
 
 from __future__ import annotations
 
 import importlib
+import os
+import sys
 from typing import Dict, Optional, Type
+
+# Memastikan root folder modul masuk ke sys.path
+module_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if module_root not in sys.path:
+    sys.path.insert(0, module_root)
 
 from src.interfaces.base_module import BaseModule
 
@@ -26,11 +30,7 @@ class ModuleRegistry:
         self._instances: Dict[str, BaseModule] = {}
 
     def register(self, name: str, dotted_path: str) -> None:
-        """Daftarkan modul baru berdasarkan nama dan path kelasnya.
-
-        Contoh:
-            register("analytics", "src.modules.analytics.analyzer.AnalyticsModule")
-        """
+        """Daftarkan modul baru berdasarkan nama dan path kelasnya."""
         self._registry[name] = dotted_path
 
     def unregister(self, name: str) -> None:
@@ -66,7 +66,7 @@ class ModuleRegistry:
 # Instance global yang dipakai di seluruh aplikasi.
 registry = ModuleRegistry()
 
-# Pendaftaran modul default (bisa ditambah/dikurangi tanpa menyentuh kode lain).
+# Pendaftaran modul default
 registry.register("analytics", "src.modules.analytics.analyzer.AnalyticsModule")
 registry.register("transformation", "src.modules.transformation.cleansers.TransformationModule")
 registry.register("validation", "src.modules.validation.rules.ValidationModule")
