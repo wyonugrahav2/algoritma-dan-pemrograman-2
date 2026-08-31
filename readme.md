@@ -15,8 +15,8 @@ Selamat datang di repositori **Algoritma dan Pemrograman 2**. Repositori ini ber
 |  **M1**   | Advanced IPO Problem Analysis & Decoupled Architecture         | `modul_01_advanced_ipo_system`             |        ✅ selesai        |
 |  **M2**   | Modular Algorithm Design & Event Bus Pattern                   | `modul_02_modular_algorithm_design`        |        ✅ selesai        |
 |  **M3**   | Rekursi vs Iterasi, Call Stack & Tail Call Optimization        | `modul_03_recursion_vs_iteration`          |        ✅ selesai        |
-|  **M4**   | Algorithmic Scale & Big-O Stress Testing Engine                | `modul_04_algorithmic_scale`               | 🔁dalam tahap pengerjaan |
-|  **M5**   | Search Algorithm Anatomy & Search Space Inspection             | `modul_05_search_algorithm_anatomy`        |            -             |
+|  **M4**   | Algorithmic Scale & Big-O Stress Testing Engine                | `modul_04_algorithmic_scale`               |        ✅ selesai        |
+|  **M5**   | Search Algorithm Anatomy & Search Space Inspection             | `modul_05_search_algorithm_anatomy`        | 🔁dalam tahap pengerjaan |
 |  **M6**   | Basic Sorting Blueprints, Stability & Telemetry Inspector      | `modul_06_basic_sorting_blueprints`        |            -             |
 |  **M7**   | Algorithm Integration Blueprint & Multi-Pipeline Orchestrator  | `modul_07_algorithm_integration`           |            -             |
 |  **M9**   | Architecting Robust Software & Circuit Breaker Fault-Tolerance | `modul_09_architecting_robust_software`    |            -             |
