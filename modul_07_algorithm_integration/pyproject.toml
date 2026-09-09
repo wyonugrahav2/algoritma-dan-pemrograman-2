@@ -1,0 +1,12 @@
+[project]
+name = "modul-07-algorithm-integration"
+version = "1.0.0"
+description = "CLI Data Pipeline & Multi-Algorithm Orchestrator Engine (Modul 07 - Algorithm Integration Blueprint)"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
