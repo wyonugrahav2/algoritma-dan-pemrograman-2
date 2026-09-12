@@ -20,8 +20,8 @@ Selamat datang di repositori **Algoritma dan Pemrograman 2**. Repositori ini ber
 |  **M6**   | Basic Sorting Blueprints, Stability & Telemetry Inspector      | `modul_06_basic_sorting_blueprints`        |        ✅ selesai        |
 |  **M7**   | Algorithm Integration Blueprint & Multi-Pipeline Orchestrator  | `modul_07_algorithm_integration`           |        ✅ selesai        |
 |  **M9**   | Architecting Robust Software & Circuit Breaker Fault-Tolerance | `modul_09_architecting_robust_software`    |        ✅ selesai        |
-|  **M10**  | Dictionary & Set Optimization, Hash Collisions & Bloom Filters | `modul_10_dictionary_and_set_optimization` | 🔁dalam tahap pengerjaan |
-|  **M11**  | Modern Data Pipelines & Memory-Efficient Stream Processing     | `modul_11_modern_data_pipelines`           |            -             |
+|  **M10**  | Dictionary & Set Optimization, Hash Collisions & Bloom Filters | `modul_10_dictionary_and_set_optimization` |        ✅ selesai        |
+|  **M11**  | Modern Data Pipelines & Memory-Efficient Stream Processing     | `modul_11_modern_data_pipelines`           | 🔁dalam tahap pengerjaan |
 |  **M12**  | CLI Architecture Blueprint & Subcommand Dispatcher Engine      | `modul_12_cli_architecture_blueprint`      |            -             |
 |  **M13**  | CLI System Blueprint, Kernel Bootstrapper & Persistence        | `modul_13_cli_system_blueprint`            |            -             |
 |  **M14**  | Audit Kompleksitas Sistem CLI, Latency & SLA Verification      | `modul_14_audit_kompleksitas_sistem_cli`   |            -             |
