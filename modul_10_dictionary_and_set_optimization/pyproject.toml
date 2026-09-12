@@ -1,0 +1,24 @@
+[project]
+name = "modul-10-dictionary-and-set-optimization"
+version = "1.0.0"
+description = "Modul 10 ALGO2 - Analisis dan optimasi struktur data Dictionary & Set berbasis Hash."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "ALGO2 Student" }
+]
+
+# Modul ini sengaja tanpa dependensi eksternal wajib (pure Python)
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
