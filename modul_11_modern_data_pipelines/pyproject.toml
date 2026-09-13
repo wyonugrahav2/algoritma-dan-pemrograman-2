@@ -1,0 +1,13 @@
+[project]
+name = "modul-11-modern-data-pipelines"
+version = "0.1.0"
+description = "CLI Modern Data Pipeline & Stream Processor — ALGO2 Modul 11"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+streaming-json = ["ijson>=3.2"]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
