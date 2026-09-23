@@ -1,0 +1,17 @@
+[project]
+name = "cli-arch-blueprint"
+version = "1.0.0"
+description = "CLI Architecture Framework & Command Dispatcher Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+cli-arch-blueprint = "main:main"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
